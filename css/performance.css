@@ -1,0 +1,334 @@
+body {
+    
+    font: 16px/24px "Trebuchet MS","Lucida Grande",Georgia,Arial;      
+	margin:15px;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    line-height: 24px;
+    margin: 24px 0;
+}
+form, table, li {
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    font: inherit;
+}
+textarea, .text {
+    border: 1px solid #80C9FF;
+    font-size: 14px;
+}
+.text {
+    padding: 3px 4px;
+}
+a {
+    color: #0066B3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+input {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+hr {
+    border: 0 none;
+    clear: both;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+ul, ol, p {
+    margin: 24px 0;
+}
+ul, ol {
+    padding: 0;
+}
+h1, h2, h3 {
+    font-family: "Century Gothic","Gill Sans",arial,sans-serif;
+    font-weight: normal;
+}
+h1 {
+    font-size: 25px;
+    margin: 0 0 24px;
+}
+h2 {
+    font-size: 22px;
+    margin: 0 0 24px;
+}
+pre, code {
+    background: none repeat scroll 0 0 #DDFFD4;
+    font-family: 'Monaco','Lucida Console';
+    font-size: 12px;
+}
+pre {
+    padding: 12px;
+}
+blockquote {
+    background-color: #DDF0FF;
+}
+#header {
+    background: url("i/hdrbg4.png") repeat-x scroll 0 -52px transparent;
+    height: 214px;
+    position: relative;
+    z-index: 50;
+}
+#header b {
+    background: url("i/as.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 165px;
+    left: 24px;
+    position: relative;
+    top: 27px;
+    width: 167px;
+}
+#header b a {
+    display: block;
+    height: 90px;
+    left: 4px;
+    position: relative;
+    text-indent: 5px;
+    top: 20px;
+    width: 156px;
+}
+#header .login {
+    position: absolute;
+    right: 24px;
+    top: 0;
+    z-index: 100;
+}
+#header li {
+    display: inline;
+    margin-left: 12px;
+}
+#header a {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+#content {
+    background-color: #FFFFFF;
+    margin-top: -8px;
+    min-height: 900px;
+    padding: 32px 300px 24px 230px;
+    position: relative;
+    z-index: 1;
+}
+#sidebar {
+    background: none repeat scroll 0 0 #DDFFD4;
+    padding: 32px 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 270px;
+    z-index: 10;
+}
+#sidebar h2 {
+    background: url("i/sbg4.png") repeat-x scroll 0 -49px #6DFF47;
+    padding: 0 24px;
+    position: relative;
+}
+#sidebar .del {
+    background-image: url("i/del.png");
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    left: 130px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 100px;
+    top: 5px;
+    width: 18px;
+}
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+}
+#sidebar ul ul {
+    color: #24B300;
+    font-size: 14px;
+    list-style-type: disc;
+    margin: 24px;
+}
+#sidebar hr, #sidebar .hr {
+    background: url("i/sbg4.png") repeat-x scroll 0 0 transparent;
+    border: 0 none;
+    height: 49px;
+}
+#searchform {
+    position: absolute;
+    text-align: center;
+    top: 174px;
+    width: 100%;
+}
+#searchform #s {
+    background: url("i/hdrbg4.png") no-repeat scroll 0 -26px transparent;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px 10px 6px 25px;
+    width: 161px;
+}
+#searchform #s:focus {
+    background: url("i/hdrbg4.png") no-repeat scroll 0 0 transparent;
+    outline: medium none;
+}
+#searchform #searchsubmit {
+    height: 0;
+    width: 0;
+}
+#footer {
+    background: url("i/hdrbg4.png") repeat-x scroll 0 -274px #000000;
+    clear: both;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 93px;
+    padding: 1px 24px 24px;
+}
+.randomquote {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0 25%;
+    position: absolute;
+    top: -3px;
+    width: 50%;
+    z-index: 80;
+}
+.randomquote td {
+    height: 168px;
+    text-align: center;
+}
+.randomquote cite {
+    white-space: nowrap;
+}
+.age {
+    float: right;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: -6px;
+    text-align: right;
+}
+.date {
+    border: 1px solid #80C9FF;
+    float: left;
+    margin: 5px 16px 2px 0;
+    width: 60px;
+}
+.date a {
+    background: url("i/hdrbg4.png") repeat-x scroll 0 -223px transparent;
+    color: #FFFFFF;
+    display: block;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+}
+.date a:hover {
+    background: url("i/hdrbg4.png") repeat-x scroll 0 -274px transparent;
+}
+.date u {
+    color: #B32400;
+    display: block;
+    font: 34px/34px "Century Gothic",arial;
+    padding: 1px 0 4px;
+    text-align: center;
+    text-decoration: none;
+}
+.post {
+    position: relative;
+}
+.post h1 {
+    padding-right: 122px;
+}
+.post img.doodle {
+    left: -212px;
+    position: absolute;
+    top: 0;
+}
+.sect {
+    color: #B32400;
+    display: block;
+    font: 16px Arial;
+    margin: 24px 0;
+    text-align: center;
+}
+.postmetadata u {
+    color: #B32400;
+    text-decoration: none;
+}
+.entry .postmetadata {
+    font-size: 14px;
+}
+.entry img {
+    border: 0 none;
+    margin: 0;
+}
+.addthis {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+.commentlist .author {
+    background-color: #DDF0FF;
+}
+.commentlist .commentauthor {
+    font-style: italic;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+.commentlist .commentauthor i {
+    font-size: 13px;
+    line-height: 24px;
+    position: absolute;
+    right: 5px;
+}
+.commentlist .commentauthor cite {
+    font-size: 17px;
+    line-height: 24px;
+}
+.commentlist {
+    font-size: 24px;
+    position: relative;
+}
+.commentlist .alt {
+    background-color: #DDFFD4;
+}
+.commentlist li {
+    font: 21px "Century Gothic",arial;
+    padding-left: 5px;
+}
+.commentlist li li {
+    font-size: 14px;
+}
+.commentlist li p {
+    margin: 0;
+    padding-bottom: 24px;
+}
+.commentlist ul {
+    margin-top: 0;
+}
+.commentlist li div {
+    font: 14px/24px "Trebuchet MS";
+}
+.commentlist .commentauthor cite {
+    display: inline;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 24px;
+}
+#commentform textarea {
+    font-size: 14px;
+    margin-right: -6px;
+    padding-left: 4px;
+    width: 100%;
+}
+.button {
+    background-color: #000000;
+    border: 2px outset #333333;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 3px 6px;
+}

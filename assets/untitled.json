@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Program Files/Tiled/examples/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="tmw_desert_spacing" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Program Files/Tiled/examples/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="97" name="tmw_desert_spacing" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Program Files/Tiled/examples/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="145" name="sewer_tileset" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Program Files/Tiled/examples/sewer_tileset.png" width="192" height="217"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1EEKQjEMBNBeVV2pK/UG/+Rm89GKVHcJ5D0YaLczkG2MsSXn3ee/m+wt/tmok+ze7THL7t0Os+z+7TPL7vtb/x132GV2f4gcI6fFu5vMPc6RS+S6eHeTucctco88Fu9u3Kta3Kta3Kta3Kta3Kta3KtaMvfYw0v2FraZZfdvg5muAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOC3J2y2YII=
+  </data>
+ </layer>
+</map>

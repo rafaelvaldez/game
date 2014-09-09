@@ -1,0 +1,68 @@
+
+.page-header{
+	margin-top:0;
+}
+.panel-body{
+	padding-top:0;
+}
+.featuredImg{
+	margin-bottom:15px;
+}
+
+/*
+body{
+    background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+#jquery_jumbotron{
+background-image: url(../img/dark-grey-tile.png);
+color:#7ACEF4;
+font-weight: 700;
+font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif !important;
+}
+
+@CHARSET "ISO-8859-1";
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+}
+
+#statsContainer {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 850px;
+}
+
+#leftcolumn {
+    background: #33CCFF;
+    width: 150px;
+    float: left;
+}
+
+#gameConsole {
+    height: 60px;
+    width: 1000px;
+    background: #EEEEEE;
+    clear: both;
+	overflow-y: scroll;
+}
+#consoleOptions{float:right;}
+.stats{display:block;}
+.statName{width:50px; display: inline-block;}
